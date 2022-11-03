@@ -78,4 +78,4 @@ jobs:
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
           action: upload
-          config-file: .deploy-now/laravel-test-8/deploy-now.yaml
+          config-file: .deploy-now/laravel-test-8/config.yaml
