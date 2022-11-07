@@ -1,7 +1,7 @@
 # Do not touch this file
 # version: 2022-07-21
 
-name: Deploy Now - laravel-test-8
+name: Deploy Now - farbfotografie_zebra: Run workflow
 
 on:
   - push
@@ -30,7 +30,7 @@ jobs:
       contents: read
       packages: write
     if: ${{ needs.retrieve-project.outputs.deployment-enabled == 'true' }}
-    uses: ./.github/workflows/laravel-test-8-build.yaml
+    uses: ./.github/workflows/farbfotografie_zebra-build.yaml
     with:
       site-url: https://IONOS_DEPLOY_NOW_SITE_URL
       branch-id: ${{ needs.retrieve-project.outputs.branch-id }}
