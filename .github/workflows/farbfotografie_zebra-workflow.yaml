@@ -1,7 +1,7 @@
 # Do not touch this file
 # version: 2022-07-21
 
-name: Deploy Now - farbfotografie_zebra: Run workflow
+name: Run workflow - farbfotografie_zebra
 
 on:
   - push
